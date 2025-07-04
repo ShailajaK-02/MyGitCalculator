@@ -10,4 +10,10 @@ public class CalculatorImpl implements Calculator {
 		return sum;
 	}
 
+	@Override
+	public int sub(int a, int b) {
+		int sub = a -b;
+		return sub;
+	}
+
 }

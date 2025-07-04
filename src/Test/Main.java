@@ -11,6 +11,8 @@ public class Main {
 		int sum = c.sum(11, 12);
 		System.out.println(sum);
 		
+		int cal = c.sub(10, 5);
+		System.out.println(cal);
 	}
 
 }
