@@ -19,6 +19,8 @@ public class Main {
 		
 		int div = c.div(12, 4);
 		System.out.println("Division :" +div);
+		
+		
 	}
 
 }
