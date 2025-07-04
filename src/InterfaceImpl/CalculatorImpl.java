@@ -30,8 +30,8 @@ public class CalculatorImpl implements Calculator {
 
 	@Override
 	public int mod(int a, int b) {
-		
-		return 0;
+		int mod = a%b;
+		return mod;
 	}
 
 	@Override
