@@ -15,5 +15,8 @@ public interface Calculator {
 	//Calculate average of two number
 	public double avg(int a, int b);
 	
+	//Calculate square
+	public int square(int a);
+	
 	
 }

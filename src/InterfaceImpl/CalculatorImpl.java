@@ -40,6 +40,14 @@ public class CalculatorImpl implements Calculator {
 		return average;
 	}
 
+	@Override
+	public int square(int a) {
+		int square = a*a;
+		return square;
+	}
+
+	
+
 	
 
 	

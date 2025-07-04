@@ -25,6 +25,9 @@ public class Main {
 		
 		double avg = c.avg(20, 30);
 		System.out.println("Avg : "+avg);
-	}
+		
+		int sq = c.square(5);
+		System.out.println("Square : "+sq);
+ }
 
 }
