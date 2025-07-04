@@ -28,5 +28,11 @@ public class CalculatorImpl implements Calculator {
 		return div;
 	}
 
+	@Override
+	public int mod(int a, int b) {
+		int mod = a%b;
+		return mod;
+	}
+
 	
 }

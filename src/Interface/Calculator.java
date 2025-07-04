@@ -10,5 +10,7 @@ public interface Calculator {
 	
 	public int div(int a,int b);
 	
+	public int mod(int a, int b);
+	
 	
 }

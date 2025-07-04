@@ -19,6 +19,9 @@ public class Main {
 		
 		int div = c.div(12, 4);
 		System.out.println("Division :" +div);
+		
+		int mod = c.mod(55, 10);
+		System.out.println("Mod :" + mod );
 	}
 
 }
