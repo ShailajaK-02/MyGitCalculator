@@ -16,6 +16,9 @@ public class Main {
 		
 		int mul = c.mul(20, 27);
 		System.out.println("Multiplication :" +mul);
+		
+		int div = c.div(12, 4);
+		System.out.println("Division :" +div);
 	}
 
 }

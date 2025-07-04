@@ -22,4 +22,11 @@ public class CalculatorImpl implements Calculator {
 		return mul;
 	}
 
+	@Override
+	public int div(int a, int b) {
+		int div = a/b;
+		return div;
+	}
+
+	
 }
