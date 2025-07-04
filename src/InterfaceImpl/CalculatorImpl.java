@@ -28,6 +28,30 @@ public class CalculatorImpl implements Calculator {
 		return div;
 	}
 
+	@Override
+	public int mod(int a, int b) {
+		int mod = a%b;
+		return mod;
+	}
+
+	@Override
+	public double avg(int a, int b) {
+		double average = (a + b)/2.0;
+		return average;
+	}
+
+	@Override
+	public int square(int a) {
+		int square = a*a;
+		return square;
+	}
+
+	@Override
+	public int cube(int a) {
+		int cube = a * a * a;
+		return cube;
+	}
+
 	
-	
-}
+
+	}

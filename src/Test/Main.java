@@ -20,7 +20,17 @@ public class Main {
 		int div = c.div(12, 4);
 		System.out.println("Division :" +div);
 		
+        int mod = c.mod(55, 10);
+		System.out.println("Mod :" + mod );
 		
-	}
+		double avg = c.avg(20, 30);
+		System.out.println("Avg : "+avg);
+		
+		int sq = c.square(5);
+		System.out.println("Square : "+sq);
+		
+		int cube = c.cube(227);
+		System.out.println("Cube : "+cube);
+ }
 
 }
