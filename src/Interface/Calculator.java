@@ -12,5 +12,8 @@ public interface Calculator {
 	
 	public int mod(int a, int b);
 	
+	//Calculate average of two number
+	public double avg(int a, int b);
+	
 	
 }

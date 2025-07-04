@@ -30,9 +30,17 @@ public class CalculatorImpl implements Calculator {
 
 	@Override
 	public int mod(int a, int b) {
-		int mod = a%b;
-		return mod;
+		
+		return 0;
 	}
+
+	@Override
+	public double avg(int a, int b) {
+		double average = (a + b)/2.0;
+		return average;
+	}
+
+	
 
 	
 }

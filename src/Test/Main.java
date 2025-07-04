@@ -22,6 +22,9 @@ public class Main {
 		
 		int mod = c.mod(55, 10);
 		System.out.println("Mod :" + mod );
+		
+		double avg = c.avg(20, 30);
+		System.out.println("Avg : "+avg);
 	}
 
 }
