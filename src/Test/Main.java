@@ -9,10 +9,13 @@ public class Main {
 		
 		Calculator c = new CalculatorImpl();
 		int sum = c.sum(11, 12);
-		System.out.println(sum);
+		System.out.println("Addition :" +sum);
 		
 		int cal = c.sub(10, 5);
-		System.out.println(cal);
+		System.out.println("Substraction : "+cal);
+		
+		int mul = c.mul(20, 27);
+		System.out.println("Multiplication :" +mul);
 	}
 
 }

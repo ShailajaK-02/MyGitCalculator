@@ -16,4 +16,10 @@ public class CalculatorImpl implements Calculator {
 		return sub;
 	}
 
+	@Override
+	public int mul(int a, int b) {
+		int mul = a * b;
+		return mul;
+	}
+
 }
